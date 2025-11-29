@@ -1,8 +1,15 @@
-venv/
+# Django
 *.pyc
 __pycache__/
 *.sqlite3
 .env
+.env.local
 .DS_Store
-*.log
-db.sqlite3
+
+# Virtual Environment
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
